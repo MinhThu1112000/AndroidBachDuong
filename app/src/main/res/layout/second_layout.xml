@@ -4,13 +4,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
     android:orientation="vertical">
     <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#000000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MINH THƯ" />
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -21,22 +28,25 @@
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/btn_star_big_on" />
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="20sp"
-            >
+            android:layout_marginLeft="20sp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="People"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#10D1EA"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="My family is happy"
                 android:textSize="15dp"
+                android:textColor="#090808"
                 />
 
          </LinearLayout>
@@ -44,15 +54,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/btn_star_big_on" />
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginLeft="20sp"
@@ -62,12 +74,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="People"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#10D1EA"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="My family is happy"
                 android:textSize="15dp"
+                android:textColor="#090808"
                 />
 
         </LinearLayout>
@@ -77,11 +91,14 @@
         android:layout_height="wrap_content"
         android:text="Recent"
         android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
         >
         <ImageView
             android:layout_marginRight="20dp"
@@ -90,69 +107,73 @@
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/sym_def_app_icon" />
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-
             >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="People"
                 android:textSize="20dp"
+                android:textColor="#D5C008"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="My family is numberone"
+                android:textColor="#090808"
                 />
-
-
         </LinearLayout>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NOW"
             android:gravity="right"
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#F80404"
             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
         <ImageView
             android:layout_marginRight="20dp"
-            android:id="@+id/imageViewTocoro"
+            android:id="@+id/imageViewTocoro2"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/sym_def_app_icon" />
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="People"
                 android:textSize="20dp"
+                android:textColor="#D5C008"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="My family is numberone"
-                />
+                android:textColor="#090808"/>
         </LinearLayout>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NOW"
             android:gravity="right"
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#F80404"
             />
     </LinearLayout>
 

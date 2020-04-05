@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+                android:textColor="#000"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Thể loại:"
+                android:textSize="15dp" />
+        <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Truyện Ngôn Tình"
+                android:textSize="15dp"
+                android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tác giả:"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tịnh du"
+            android:textSize="15dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:textColor="#000"
+            android:layout_weight="0.85"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Lượt nghe:"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="832"
+            android:textSize="15dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:textColor="#000"
+            android:layout_weight="1.2"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày cập nhật:"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="27/12/2019"
+            android:textSize="15dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng:"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Còn tiếp"
+            android:textSize="15dp"
+            android:textColor="#F40622"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
